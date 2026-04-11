@@ -1,0 +1,30 @@
+[project]
+name = "ticket-triage-env"
+version = "0.1.0"
+description = "AI Customer Support Ticket Triage RL Environment with RL + LLM"
+authors = [{ name = "Sai Bhavani Yedla" }]
+requires-python = ">=3.10,<3.13"
+
+dependencies = [
+  "fastapi==0.110.0",
+  "uvicorn==0.29.0",
+  "gymnasium==0.29.1",
+  "pydantic==2.6.4",
+  "numpy",
+  "scikit-learn",
+  "stable-baselines3",
+  "torch",
+  "openai",
+  "pyyaml"
+]
+
+[project.optional-dependencies]
+dev = ["pytest", "httpx", "black", "ruff"]
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["env*", "agents*", "utils*", "tasks*", "grader*"]
