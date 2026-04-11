@@ -21,6 +21,15 @@ The goal is to demonstrate how reinforcement learning can be applied to real-wor
 
 ---
 
+## ⚙️ Tech Stack
+1. Python 🐍
+2. FastAPI ⚡
+3. Pydantic
+4. Reinforcement Learning (Custom Environment)
+5. Uvicorn
+
+---
+
 ## 🚀 Execution Process
 
 ### 🔹 Step 1: Clone the Repository
@@ -99,10 +108,3 @@ Response Example (Incorrect):
 }
 
 ---
-
-# ⚙️ Tech Stack
-1. Python 🐍
-2. FastAPI ⚡
-3. Pydantic
-4. Reinforcement Learning (Custom Environment)
-5. Uvicorn
