@@ -98,7 +98,9 @@ Response Example (Incorrect):
   "message": "Incorrect triage!"
 }
 
-### ⚙️ Tech Stack
+---
+
+# ⚙️ Tech Stack
 1. Python 🐍
 2. FastAPI ⚡
 3. Pydantic
